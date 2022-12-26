@@ -1,0 +1,8 @@
+{
+  "require": {
+      "stripe/stripe-php": "^8.0",
+    "google/apiclient": "^2.0",
+    "league/omnipay": "^3.2",
+    "omnipay/stripe": "^3.2"
+  }
+}
