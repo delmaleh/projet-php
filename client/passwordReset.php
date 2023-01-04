@@ -3,7 +3,7 @@ spl_autoload_register(function($className){
     include '../classes/'.$className.'.php';
     
 });
-require_once '../classes/config.php';
+require_once '../classes/configJWT.php';
 $bExist=false;
 $message=null;
 $email=null;

@@ -10,3 +10,5 @@ DEFINE ('PAYMENT_CURRENCY','EUR');
 
 $gateway = Omnipay::create('Stripe\PaymentIntents');
 $gateway->setApiKey(STRIPE_SECRET_KEY);
+
+?>
